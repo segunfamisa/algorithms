@@ -15,8 +15,8 @@ def should_cut(sticks):
 
 def Solution(n, a):
     if n == 1:
-        # break 3 times to form a triangle
-        print 3
+        # break 2 times to form a triangle
+        print 2
     elif n > 1 and n < 3:
         # essentially 2 sticks. Break one stick to get 3 sticks and then form a triangle
         print 1
